@@ -1,0 +1,343 @@
+<resources>
+    <string name="app_name">Mentawai Tour</string>
+    <string name="museo_sans_rounded_100">fonts/MuseoSansRounded-100.otf</string>
+    <string name="museo_sans_rounded_300">fonts/MuseoSansRounded-300.otf</string>
+    <string name="museo_sans_rounded_500">fonts/MuseoSansRounded-500.otf</string>
+    <string name="museo_sans_rounded_700">fonts/MuseoSansRounded-700.otf</string>
+
+    <string name="aileuita">Aileuita</string>
+    <string name="welcome">Welcome</string>
+    <string name="how_are_you">"how are you"</string>
+    <string name="loading">loading your profile</string>
+    <string name="splash_title">The Government of Mentawai Island Regency\nThe West Sumatera Province</string>
+    <string name="mentawai_surf_and_tourism">Mentawai Surf And Tourism</string>
+    <string name="mentawai_surf_and_tourism_1">Mentawai\nSurf And\nTourism</string>
+    <string name="mentawai_islands">Mentawai Islands</string>
+
+    <string name="local_wisdom">Local Wisdom</string>
+    <string name="local_wisdom_details">Local Wisdom of Arat Sabulungan</string>
+    <string name="world_oldest_tattoo">World Oldest Tattoo</string>
+    <string name="world_oldest_tattoo_details">The World Oldest Tattoo</string>
+    <string name="attractions">Attractions</string>
+    <string name="attractions_details">The Cultural Attractions Of Mentawai</string>
+    <string name="nature">Nature</string>
+    <string name="nature_details">Nature Mentawai</string>
+
+    <string name="surfing_retribution">Surfing Retribution</string>
+    <string name="surfing_spot">Surfing Spot</string>
+    <string name="tides">Tides</string>
+    <string name="tourism_information_center">Tourism Information Center</string>
+    <string name="living_on_board">Living On Board</string>
+
+    <string name="resorts">Resorts</string>
+    <string name="homestay">Homestay</string>
+    <string name="tour_guide">Tour Guide</string>
+    <string name="island_life">Island Life</string>
+    <string name="how_to_mentawai">How To Mentawai</string>
+
+    <string name="mentawai_island_content" formatted="false">Before explore this “piece of paradise”, it is worth
+    noted that it is part of West Sumatera Province covers 6.011,35 km2 wide with coast line
+    stretched 1.402,66 km2 long. Geographically, Mentawai islands is separated from West Sumatera Province, bordered with Siberut
+    strait on the South, Indian Ocean on the North, Mentawai strait on the East, and Indian Ocean on the West.&lt;br /&gt; &lt;br /&gt;
+    Before being mesmerized by the beauty of curling waves of Mentawai, which is dreamt by surfers from around the world, and cradling in
+    the adventurous inland of Siberut, let us have a look to the profile of Mentawai to have a good
+    understanding about the destinations.&lt;br /&gt; &lt;br /&gt;
+    Mentawai mainland covers 85 % forest. Within that percentage, 70 % is idle land and 25 % are rice fields, moor, mixed farms and plantations.
+    Meanwhile the residential or housing area is only 3,042 hectares wide or 0.51 percent of the
+    total area.&lt;br /&gt; &lt;br /&gt;
+    Mentawai regency has Tuapeijat as the capital, located in North Sipora district with 153km2 distance to Padang. Sea route and transport is
+    the main access to reach the island from Padang, so as with local inter island transport especially between districts in Mentawai. The population
+    of Mentawai Islands based on 2011 statistic was 77,078 people consisting of 40,632 male and 36,446 female.&lt;br /&gt; &lt;br /&gt;
+    From the illustration, we could now imagine that this regency stretch in a coastal areas with 95
+    small uninhabited islands that scattered through four main islands of Siberut, Sipora, North and South Pagai Island.&lt;br /&gt; &lt;br /&gt;
+    Other useful information is that it is easier to access the coastal area in shore than travel deep
+    onto the inland. This is because the infrastructure such as road and land transport is still very
+    limited. For the entire district, the total length of the road is 465 miles.&lt;br /&gt; &lt;br /&gt;
+    According to the data, there are 13 seaports built around the four main islands. From the total 13 ports, eight of them are concrete construction, one iron construction, two constructed from
+    timber, and two others are mix but for fish auction. The district distribution are as followed: three ports in Sikakap District, three ports in the District of North and South Sipora, three ports in the District of South Siberut, and one port in theDistrict of North Siberut.&lt;br /&gt; &lt;br /&gt;
+    Through these sea transport facilities, tourists can explore the beauty of the sea sights in the four main islands of Mentawai. If the weather
+    and wave conditions are favorable, tourists can commute comfortably in and around Mentawai islands. Tourist can also make a stop over or visit
+    some spots along the beaches. If the weather is good, chartered boats can anchored and parked at any location conveniently.&lt;br /&gt; &lt;br /&gt;
+    The Local Government of Mentawai District recorded 65 different kinds of tourist attractions in the area, which spread over in ten districts.
+    From 65 tourist attractions, 21 of the attractions are natural scenery or scenic landscapes, 29
+    </string>
+
+    <string name="local_wisdom_content" formatted="false">The Mentawai Islands regency offers many
+    charming natural tourism attractions. Perfect
+    waves for surfing, beautiful underwater park, and
+    white sandy beaches are few examples of them.
+    The complement of this combination named
+    “one of God’s masterpiece on earth”.&lt;br /&gt; &lt;br /&gt;
+    Unlike most tourist destinations, which have
+    been touched by modernity, Mentawai Islands
+    keep the humbleness in traditional identity. In
+    some parts of the area, the authentic traditional
+    way of life is remained protected by the local
+    tribe due to their belief of “destroying forest
+    means destroying life”.&lt;br /&gt; &lt;br /&gt;
+    The essential belief of indigenous Mentawaians
+    says every living thing has its own spirit. They
+    believe that forest is a dwelling place of the
+    ancestors’ spirits who protect all plants and
+    animals. Therefore, they have to treat the
+    nature wisely and respectfully. The belief to the
+    ancestors’ spirit and the wisdom to the nature
+    for indigenous Mentawaians is called Arat
+    Sabulungan.&lt;br /&gt; &lt;br /&gt;The evidence that indigenous Mentawaians
+    respect the forest can be seen from the
+    presence of leaves as the primary element in
+    every Mentawaian traditional ceremony. The
+    leaves are believed having healing powers. They
+    even believe that the leaves are able to connect
+    people with the Ruler of the universe. They called
+    this belief as Ulau Manua.&lt;br /&gt; &lt;br /&gt;
+    Before cutting down a tree, the indigenous
+    traditional Mentawaians do a ritual called Punen
+    or Lia. This ritual is about asking permission
+    to “the Spirit of the forest”. They also have to
+    replace the felled off tree with a new one. This
+    local wisdom is inherited and passed down
+    from generation to generation. They believed
+    that trees give life to human. This local wisdom
+    attached tightly in the heart of Mentawai
+    indigenous people.&lt;br /&gt; &lt;br /&gt;
+    As the result, humans and nature live
+    harmoniously in hinterland of Mentawai. The
+    sustainability of forest protection will ensure the
+    preservation of the ecosystem. As the evidence,
+    endemic wildlife and flora still can be found in
+    the Mentawai Islands.&lt;br /&gt; &lt;br /&gt;
+    </string>
+
+    <string name="world_oldest_content" formatted="false">Adi Rosa, a professor of Fine Arts from State
+    University of Padang - West Sumatera, argued
+    that Mentawai tribe has been tattooing their
+    body since their arrival to the west coast of
+    Sumatera in 1500 BC - 500 BC ago. It means
+    Mentawai tattoo is one of the oldest tattoo in
+    the world.&lt;br /&gt; &lt;br /&gt;
+    The tattoo is made by a Sipatiti (tattooist). The
+    preparation of tattooing takes quite a long time,
+    which can be up to several months. There are
+    various ceremonies and taboos that must be
+    passed by a person who wants to be tattooed.&lt;br /&gt; &lt;br /&gt;
+    Not everybody is able to pass through this stage.
+    Needles that are used to tattoo are made from
+    animal bone or sharpened Karai wood. The
+    needle then wrought on the skin to create lines
+    that become the main motif of Mentawai tribe
+    tattoo. The dye is derived from charcoal that
+    sticks in the cauldron. Usually, the process of
+    tattooing starts from the palms, hands, feet, and
+    body. After tattooing for several days, the skin
+    that tattooed will swell and bleed.&lt;br /&gt; &lt;br /&gt;
+    Tattoo for Mentawai tribe is a symbol. Therefore,
+    each streak and line has philosophical meaning.
+    Besides describing the balance of the universe, it
+    also contains the values of local wisdom that is
+    inherited through generations.&lt;br /&gt; &lt;br /&gt;
+    According to Mentawai tribe, the main function
+    of tattoo is to show identity and social status
+    or profession. The tattoos of Sikerei (shaman)
+    is different with tattoo of a hunter. The tattoo
+    of a hunter will be identified from their sketch
+    of hunted animals, such as pigs, deer, monkeys,
+    birds, or crocodiles. The Sikerei’s tattoos can
+    be identified by “stars motif tattoo” known as
+    Sibalu- balu.&lt;br /&gt; &lt;br /&gt;
+    In short, tattoo for the indigenous people of
+    Mentawai is a purification stage of body and soul
+    in order to achieve perfect harmony with the
+    spirit of the universe.</string>
+
+    <string name="attractions_content" formatted="false">There are 14 types of dances that commonly
+    held in traditional ceremonies which are; clap
+    dance, boating dance, eagle dance, chicken
+    dance, monkey dance, healing dance, butterfly
+    dance, fields dance, sparrow dance, owl dance,
+    snatching lover dance, prodigal son dance, and
+    gull dance. There are leaves ornament in almost
+    all of the traditional clothes used by the dancers.&lt;br /&gt; &lt;br /&gt;
+    Additionally, visitors can also witness the sacred
+    and magical rituals of Mentawai indigenous
+    people in Siberut. This ritual is performed
+    at certain time depends on its purpose; for
+    example, the ritual treatment of the sick and the
+    ritual of casting out the demons.&lt;br /&gt; &lt;br /&gt;
+    In the North Pagai, for example, visitors can enjoy
+    the interesting sights when the women and
+    the girls fishing in the shallow estuaries. Women
+    usually go to the river looking for the seashell
+    and shrimp using ‘Subba ‘, this activity called
+    Manairi.&lt;br /&gt; &lt;br /&gt;
+    Not only in the river, the swamp around the
+    mangrove forest is also a source of food for the
+    indigenous people such as seashell or scallop.
+    They looking for the seashell or scallop in the
+    mud mangrove forests by immersed their hands
+    on mud.&lt;br /&gt; &lt;br /&gt;
+    There is also Anggau tradition, crabs searching
+    by the people of Mentawai. However, the
+    Anggau tradition is not a routine activity, but
+    only in certain seasons mainly in the wavy
+    season.&lt;br /&gt; &lt;br /&gt;
+    There is also Otcai tradition. Otcai is a tradition of
+    distributing food equally to each tribal chief in
+    every Uma. Otcai means togetherness. Dividing
+    the otcai is held in wedding ceremonies or other
+    rituals.&lt;br /&gt; &lt;br /&gt;
+    Another tradition which unfortunately almost
+    extinct in Mentawai is Pakilia. Pakilia is a
+    welcoming ceremony of the new member of the
+    family or tribe. Usually, Pakilia performed after the
+    wedding ceremony.&lt;br /&gt; &lt;br /&gt;
+    An interesting ceremony that visitors can
+    witness in Siberut is Panunggru ceremony. It
+    is a ritual that ending the mourning period of
+    a dead person in a family. This ritual embraces
+    the philosophy of parting forever between the
+    spirits of the deceased to the bereaved family.
+    Therefore, the ceremony is held few months after
+    the burial.&lt;br /&gt; &lt;br /&gt;
+    The Mentawaians also play a traditional musical
+    instrument called Taddukat. The instrument is
+    played when one of the member of the tribe die.</string>
+
+    <string name="nature_content" formatted="false">There are at least four natural attractions worth
+    to visit during travelling to Mentawai. First is the
+    waterfall. There are some waterfalls located in the
+    island of North Siberut. One of the most famous
+    is Sirilanngai waterfall in Malancan village,
+    which has pristine and natural condition. Other
+    waterfalls are in Simantamtaman Monganpoula,
+    Sirilanggai Cimpungan, and Kulukubuk
+    The second natural attraction is lake. There is
+    a beautiful lake can be found in the middle
+    of the forest in Saumanganyak village, known
+    as Rua Oinan Lake. This estuary shape lake is
+    surrounded by big trees. The other lakes are
+    located in Gojib Simalegi (Siberut) and Rua
+    Oinan Saumanganyak (North Pagai).&lt;br /&gt; &lt;br /&gt;
+    The third tourism attraction is adventure through
+    the river. Mentawai has many rivers because it
+    mainly covered by forest, which has river flowing
+    inside it. Since the forests are well protected and
+    the water is still clean; therefore it is really ideal
+    for travelers who want to go trekking and hiking
+    around the area. Some numbers of spots that
+    can be visited are, Sagulubbeg, Taileleu, Muara
+    Sikabaluan, and Policoman.&lt;br /&gt; &lt;br /&gt;
+    Mentawai also offers the excitement of seeing
+    exotic wildlife. Visitor can explore the beauty of
+    Mentawai endemic flora and fauna. Based on the
+    local official record of Mentawai district, there
+    are four types of endemic primates, namely Bilou
+    (gibbon species), Joja (ape species), Simakobu
+    (pig-tailed macaque species), Bokkoi (monkey
+    species), 17 species of mammals, 150 types
+    of birds, one of which is Mentawai owl (Otus
+    Mentawai) and 98 species of orchids.&lt;br /&gt; &lt;br /&gt;
+    There is an interesting belief about Bilou, the
+    primate. For the indigenous people of Mentawai,
+    Bilou’s voice is considered as a sign. When
+    Bilou sounds a heartbreaking groan, it means
+    something bad is going to happen, death for
+    example. When they make noisy sounds, people
+    believe that will be an earthquake coming.
+    The Mentawai islands are covered with the
+    tropical rainforest includes dipterocarp forest,
+    a mixture of primary forests, swamps, coastal
+    forests to mangroves area. Each island has
+    their own flora, which is estimated that 15% of
+    existing plants are endemic.&lt;br /&gt; &lt;br /&gt;
+    About 65% of the mammals in Mentawai are
+    endemic animals (only exist in the islands). All of
+    them can be found at the Conservation Areas of
+    Siberut Sagulubbeg, Taileleu, Muara Sikabaluan,
+    Policoman Policoman Forest (North Siberu)</string>
+
+    <string name="surfing_retribution_content" formatted="false">In the period 80-90’s, foreign surfers “dominated”
+    the big waves and enjoyed the barrel freely in the waters around the Mentawai Islands. From
+    their adventures of hunting waves, one by one, the foreign surfers gave names on “waves” they found.&lt;br /&gt; &lt;br /&gt;
+    According to the surfers, surfing in Mentawai is more challenging and fun, because of the wave
+    and beach character are more vary. They named various types of waves, such as mellow, hollow,
+    and barrel, so that the surfer can enjoy different type of waves they can surf.</string>
+
+    <string name="surfing_spot_content" formatted="false">Another advantage surfing in Mentawais is the friendly distance between the waves. The waves
+    have an adequate interval: Not too short or too long. Waves in Mentawai have sufficient intervals, preventing surfers pushed by two or more
+    consecutive large waves. The situation is often called a triple hold-down. Injure or death does
+    happen in surfing because some surfers cannot anticipate such triple hold-down in the crowded location.&lt;br /&gt; &lt;br /&gt;
+    Well, the wave’s interval, types, height, cleanliness or smoothness, and the number of surf spots or surfers in one spot, are the factors that should be
+    taken into account to assess whether a surf spot was good, not good, or bad.&lt;br /&gt; &lt;br /&gt;
+    In this regard, surfing spots in the Mentawai is scored 9, which is consider perfect among the surfers. These are conditions that make
+    Mentawai is favorable than other surfing areas in the world.&lt;br /&gt; &lt;br /&gt;
+    Pulau Roniki Kec. Siberut Barat Daya&lt;br /&gt; &lt;br /&gt;
+    • Burgerworld Right&lt;br /&gt; &lt;br /&gt;
+    • Burgerworld Left&lt;br /&gt; &lt;br /&gt;
+    • E-bay Left&lt;br /&gt; &lt;br /&gt;
+    </string>
+
+    <string name="how_to_mentawai_content" formatted="false">
+    There are two modes of transport to reach Mentawai, by plane and boat. Whatever the choice, both would create memorable experience to the visitors. If visitors choose
+    for the sea transportation, they can go from the Port of Bungus, West Sumatra. ASDP (River, Lake and Crossing Transport) ships will take visitors to the Mentawai Islands. There
+    are two ships that have a fixed schedule: KM Ambu Ambu and KM Gambolo, which can take people to the four main islands in Mentawai. It will took approximately 8 (eight)
+    to 12 (twelve) hours transport, leaving the port around 17:00 or 20:00, and arriving at the destination when the sky is red tinge in the eastern horizon. &lt;br /&gt; &lt;br /&gt;
+    Besides ASDP ships, there are also fast boat which operate by private company with limited capacity that can be chartered. The boat departs from the port of Muara, Padang.
+    Unfortunately, chartered boat is quite costly. Currently, there is a fast ship called Mentawai Fast, which is ready to take tourists to explore the islands in the Mentawai islands in a short hours and the cost is affordable. &lt;br /&gt; &lt;br /&gt;
+    Visitors can also access Mentawai by plane. From Minangkabau International Airport in Padang, there are direct flights to the airport of Rokot, at the Sipora Island. The Aircraft
+    named Susi Airline have three times flights schedule in a week to go to Rokot Airport.&lt;br /&gt; &lt;br /&gt;
+    When visiting Mentawai, visitors do not need to worry about accommodation. In the four main islands and small islands around it, there are many resorts, hotels, guesthouses
+    and other accommodation facilities scattered throughout the island. The price is varied, ranging from low up to high budget. Even when tourists want to visit the inland of
+    Siberut, there are many houses that can be used as a homestay.
+    </string>
+
+    <string name="resorts_content" formatted="false">
+    1. KANDUI RESORT&lt;br /&gt;
+    Pulau Karamajat, Desa Katurei&lt;br /&gt;
+    www.kanduiresort.com&lt;br /&gt;
+
+    &lt;br /&gt;
+
+    2. KANDUI VILLAS RESORT&lt;br /&gt;
+    Pulau Karamajat, Desa Katurei&lt;br /&gt;
+	www.kanduivillas.com&lt;br /&gt;
+
+    &lt;br /&gt;
+
+    3. WAVEPARK RESORT&lt;br /&gt;
+    Pulau mainuk, Desa Katurei&lt;br /&gt;
+	www.wavepark.com&lt;br /&gt;
+
+    &lt;br /&gt;
+
+    4. PITT STOP HILL&lt;br /&gt;
+    Pulau Nyang Nyang, Desa Taileleu&lt;br /&gt;
+	www.pitstophill.com&lt;br /&gt;
+    </string>
+
+    <string name="homestay_content" formatted="false">
+    &lt;b&gt;Sikakap&lt;/b&gt;&lt;br /&gt; &lt;br /&gt;
+    Wisma Bagindo&lt;br /&gt;
+    Wisma Lestari&lt;br /&gt;
+    Wisma Kita 082170227873&lt;br /&gt;
+    Wisma Asri&lt;br /&gt;
+    Wisma Berkah 0759- 322233
+
+    &lt;br /&gt;&lt;br /&gt;
+
+    &lt;b&gt;Sipora Utara&lt;/b&gt;&lt;br /&gt; &lt;br /&gt;
+    Lalep Oinan Guest House&lt;br /&gt;
+    081363405801 (Johanes)&lt;br /&gt;
+    Km. 4 Mapadegat,desa Tuapeijat&lt;br /&gt; &lt;br /&gt;
+    Baruni Homestay&lt;br /&gt;
+    Mapadegat, desa Tuapeijat&lt;br /&gt; &lt;br /&gt;
+    Hotel Turonia&lt;br /&gt;
+	0759-320578,320579&lt;br /&gt;
+	081267405321&lt;br /&gt;
+    Km. 5, desa Tuapeijat&lt;br /&gt; &lt;br /&gt;
+    Bundo Guest House&lt;br /&gt;
+	081374577708&lt;br /&gt;
+    Km. 6, desa Tuapeijat&lt;br /&gt;
+    </string>
+
+</resources>

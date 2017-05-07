@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/magenta1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/mtic"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/resorts_button"
+                android:layout_marginTop="15sp"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/magenta6"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/magenta2"
+                android:text="@string/resorts"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/homestay_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/magenta5"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/homestay"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/guide_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/magenta4"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/tour_guide"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/island_life_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/magenta3"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/island_life"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/how_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/magenta2"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/how_to_mentawai"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

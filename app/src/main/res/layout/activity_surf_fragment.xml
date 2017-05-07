@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginTop="20sp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ailueta"
+                android:layout_width="300sp"
+                android:layout_height="130sp" />
+
+            <fr.arnaudguyon.smartfontslib.FontTextView
+                android:layout_marginTop="10sp"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/yellow"
+                android:text="@string/welcome"
+                android:textSize="20dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontTextView
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/yellow"
+                android:layout_marginTop="10sp"
+                android:text="@string/mentawai_surf_and_tourism"
+                android:textAllCaps="true"
+                android:textSize="20dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/retribution_button"
+                android:layout_marginTop="15sp"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/blue6"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/blue2"
+                android:text="@string/surfing_retribution"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/spot_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/blue5"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/surfing_spot"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/tides_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/blue4"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/tides"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/information_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/blue3"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/tourism_information_center"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/living_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/blue2"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/living_on_board"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

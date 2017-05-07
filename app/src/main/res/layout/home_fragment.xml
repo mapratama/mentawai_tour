@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/mtic"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/mentawai_island_button"
+                android:layout_marginTop="15sp"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/orange6"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/orange2"
+                android:text="@string/mentawai_islands"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/local_wisdom_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/orange5"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/local_wisdom"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/world_oldest_tattoo_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/orange4"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/world_oldest_tattoo"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/attractions_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/orange3"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/attractions"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/nature_button"
+                app:font="@string/museo_sans_rounded_500"
+                android:gravity="right|center_vertical"
+                android:background="@color/orange2"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:paddingRight="30sp"
+                android:textColor="@color/white"
+                android:text="@string/nature"
+                android:textAllCaps="true"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

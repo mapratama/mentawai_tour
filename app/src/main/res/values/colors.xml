@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#7F7F7F</color>
+    <color name="dark_gray">#4C4C4C</color>
+    <color name="light_blue">#a6def5</color>
+    <color name="yellow">#f0e925</color>
+
+    <color name="orange">#db7014</color>
+    <color name="orange1">#bd6317</color>
+    <color name="orange2">#c4752e</color>
+    <color name="orange3">#d1945c</color>
+    <color name="orange4">#deb38a</color>
+    <color name="orange5">#ebd1ba</color>
+    <color name="orange6">#f7f0e8</color>
+
+    <color name="blue">#5487bd</color>
+    <color name="blue1">#5487bd</color>
+    <color name="blue2">#6391c2</color>
+    <color name="blue3">#87abd1</color>
+    <color name="blue4">#a8c2de</color>
+    <color name="blue5">#ccdbeb</color>
+    <color name="blue6">#edf2f7</color>
+
+    <color name="magenta">#386678</color>
+    <color name="magenta1">#386678</color>
+    <color name="magenta2">#4d7587</color>
+    <color name="magenta3">#7394a1</color>
+    <color name="magenta4">#9cb3bd</color>
+    <color name="magenta5">#c4d1d6</color>
+    <color name="magenta6">#ebf0f2</color>
+
+</resources>
