@@ -32,6 +32,7 @@ public class SurfFragment extends Fragment {
     public void retributionButtonOnClick() {
         intent.putExtra("content", getResources().getString(R.string.surfing_retribution_content));
         intent.putExtra("title", getResources().getString(R.string.surfing_retribution));
+        intent.putExtra("isRetribution", true);
         intent.putExtra("banner", new int[]{R.mipmap.retribusi1, R.mipmap.retribusi2,
                 R.mipmap.retribusi3, R.mipmap.retribusi4});
         startActivity(intent);

@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new HomeFragment(), "Home");
         adapter.addFragment(new SurfFragment(), "Surf");
         adapter.addFragment(new TourFragment(), "Tour");
-        adapter.addFragment(new SearchFragment(), "Search");
-        adapter.addFragment(new ProfileFragment(), "Profile");
+        adapter.addFragment(new SearchFragment(), "Image");
+        adapter.addFragment(new ProfileFragment(), "Video");
         viewPager.setAdapter(adapter);
         viewPager.setPagingEnabled(false);
 

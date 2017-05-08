@@ -57,6 +57,22 @@
                 android:lineSpacingExtra="3sp"
                 android:textSize="14dp" />
 
+            <fr.arnaudguyon.smartfontslib.FontButton
+                android:id="@+id/pay_button"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_button"
+                android:layout_width="wrap_content"
+                android:text="PAY NOW"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:layout_height="wrap_content" />
+
+
         </LinearLayout>
 
     </ScrollView>

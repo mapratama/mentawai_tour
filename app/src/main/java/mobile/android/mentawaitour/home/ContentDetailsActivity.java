@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import butterknife.BindView;
@@ -19,6 +21,7 @@ public class ContentDetailsActivity extends AppCompatActivity {
     @BindView(R.id.content_text) TextView contentTextView;
     @BindView(R.id.title_text) TextView titleTextView;
     @BindView(R.id.view_pager) ViewPager viewPager;
+    @BindView(R.id.pay_button) Button payButton;
     @BindView(R.id.indicator) CircleIndicator circleIndicator;
 
     @Override
@@ -31,6 +34,9 @@ public class ContentDetailsActivity extends AppCompatActivity {
         circleIndicator.setViewPager(viewPager);
         contentTextView.setText(Utils.fromHtml(getIntent().getStringExtra("content")));
         titleTextView.setText(getIntent().getStringExtra("title"));
+
+        if (getIntent().getBooleanExtra("isRetribution", false))
+            payButton.setVisibility(View.VISIBLE);
     }
 
     @OnClick(R.id.content_text)
