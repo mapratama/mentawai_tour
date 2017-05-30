@@ -1,13 +1,20 @@
 package mobile.android.mentawaitour.other;
 
 import android.content.Context;
+import android.net.Uri;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.facebook.drawee.drawable.ScalingUtils;
+import com.facebook.drawee.view.SimpleDraweeView;
+
+import io.realm.RealmList;
+import io.realm.RealmResults;
 import mobile.android.mentawaitour.R;
+import mobile.android.mentawaitour.models.Photo;
 
 /**
  * Created by angga on 25/04/17.
@@ -15,35 +22,41 @@ import mobile.android.mentawaitour.R;
 
 public class ImageAdapter extends PagerAdapter {
     private Context mContext;
-    private int[] sliderImagesId;
+    private RealmList<Photo> photos;
 
-    public ImageAdapter(Context context, int[] sliderImagesId) {
+    public ImageAdapter(Context context, RealmResults<Photo> photoList) {
         this.mContext = context;
-        this.sliderImagesId = sliderImagesId;
+        photos = new RealmList<>();
+        for (Photo photo : photoList) photos.add(photo);
+    }
+
+    public ImageAdapter(Context context, RealmList<Photo> photoList) {
+        this.mContext = context;
+        this.photos = photoList;
     }
 
     @Override
     public int getCount() {
-        return sliderImagesId.length;
+        return photos.size();
     }
 
     @Override
     public boolean isViewFromObject(View v, Object obj) {
-        return v == ((ImageView) obj);
+        return v == ((SimpleDraweeView) obj);
     }
 
     @Override
     public Object instantiateItem(ViewGroup container, int i) {
-        ImageView mImageView = new ImageView(mContext);
-        mImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        mImageView.setImageResource(sliderImagesId[i]);
-        ((ViewPager) container).addView(mImageView, 0);
-        return mImageView;
+        SimpleDraweeView photo = new SimpleDraweeView(mContext);
+        photo.setImageURI(Uri.parse(photos.get(i).getPhotoUrl()));
+        photo.getHierarchy().setActualImageScaleType(ScalingUtils.ScaleType.CENTER_CROP);
+        ((ViewPager) container).addView(photo, 0);
+        return photo;
     }
 
     @Override
     public void destroyItem(ViewGroup container, int i, Object obj) {
-        ((ViewPager) container).removeView((ImageView) obj);
+        ((ViewPager) container).removeView((SimpleDraweeView) obj);
     }
 }
 

@@ -18,10 +18,11 @@
             <ImageView
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
-                android:layout_gravity="center"
-                android:src="@mipmap/mtic"
-                android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_marginRight="30dp"
+                android:layout_gravity="right"
+                android:src="@mipmap/logo"
+                android:layout_width="180dp"
+                android:layout_height="180dp" />
 
             <fr.arnaudguyon.smartfontslib.FontButton
                 android:id="@+id/retribution_button"

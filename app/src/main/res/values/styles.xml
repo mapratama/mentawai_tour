@@ -1,9 +1,11 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimaryDark">@color/black</item>
+    <style name="MidtransTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorAccent">@color/blue3</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorButtonNormal">@color/blue</item>
         <item name="alertDialogTheme">@style/AlertDialogStyle</item>
-        <item name="actionBarStyle">@style/ActionBarStyle</item>
     </style>
 
     <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">

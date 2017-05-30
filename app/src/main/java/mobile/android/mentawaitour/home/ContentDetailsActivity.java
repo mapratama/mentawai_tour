@@ -1,9 +1,9 @@
 package mobile.android.mentawaitour.home;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -13,8 +13,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import me.relex.circleindicator.CircleIndicator;
 import mobile.android.mentawaitour.R;
+import mobile.android.mentawaitour.models.Content;
 import mobile.android.mentawaitour.other.ImageAdapter;
-import mobile.android.mentawaitour.other.Utils;
 
 public class ContentDetailsActivity extends AppCompatActivity {
 
@@ -24,30 +24,37 @@ public class ContentDetailsActivity extends AppCompatActivity {
     @BindView(R.id.pay_button) Button payButton;
     @BindView(R.id.indicator) CircleIndicator circleIndicator;
 
+    private Content content;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_details);
         ButterKnife.bind(this);
 
-        viewPager.setAdapter(new ImageAdapter(this, getIntent().getIntArrayExtra("banner")));
-        circleIndicator.setViewPager(viewPager);
-        contentTextView.setText(Utils.fromHtml(getIntent().getStringExtra("content")));
-        titleTextView.setText(getIntent().getStringExtra("title"));
+        content = Content.getByKey(getIntent().getStringExtra("key"));
+        contentTextView.setText(content.getDescription());
+        titleTextView.setText(content.getName());
 
-        if (getIntent().getBooleanExtra("isRetribution", false))
+
+        viewPager.setAdapter(new ImageAdapter(this, content.getPhotos()));
+        circleIndicator.setViewPager(viewPager);
+
+        if (content.getKey().equals("surfing_retribution")) {
             payButton.setVisibility(View.VISIBLE);
+            return;
+        }
     }
 
-    @OnClick(R.id.content_text)
-    public void a() {
-        viewPager.setCurrentItem(1, true);
+    @OnClick(R.id.pay_button)
+    public void payButtonOnClick() {
+
     }
 
     @OnClick(R.id.title_text)
     public void viewPagerOnClick() {
         Intent intent = new Intent(this, BannerActivity.class);
-        intent.putExtra("banner", getIntent().getIntArrayExtra("banner"));
+        intent.putExtra("key", content.getKey());
         startActivity(intent);
     }
 }

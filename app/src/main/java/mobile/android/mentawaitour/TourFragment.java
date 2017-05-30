@@ -11,44 +11,43 @@ import android.view.ViewGroup;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import mobile.android.mentawaitour.home.ContentDetailsActivity;
+import mobile.android.mentawaitour.other.Utils;
 
 /**
  * Created by angga on 30/04/16.
  */
 public class TourFragment extends Fragment {
 
-    private Intent intent;
-
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.tour_fragment, container, false);
         ButterKnife.bind(this, view);
-        intent = new Intent(getActivity(), ContentDetailsActivity.class);
-
         return view;
     }
 
+
     @OnClick(R.id.resorts_button)
     public void resortsButtonOnClick() {
-        intent.putExtra("content", getResources().getString(R.string.resorts_content));
-        intent.putExtra("title", getResources().getString(R.string.resorts));
-        intent.putExtra("banner", new int[]{R.mipmap.resort1, R.mipmap.resort2});
-        startActivity(intent);
+        Utils.openContent(getActivity(), "resorts");
     }
 
     @OnClick(R.id.homestay_button)
     public void homestayButtonOnClick() {
-        intent.putExtra("content", getResources().getString(R.string.homestay_content));
-        intent.putExtra("title", getResources().getString(R.string.homestay));
-        intent.putExtra("banner", new int[]{R.mipmap.homestay1, R.mipmap.homestay2, R.mipmap.homestay3});
-        startActivity(intent);
+        Utils.openContent(getActivity(), "homestay");
     }
 
     @OnClick(R.id.how_button)
     public void howButtonOnClick() {
-        intent.putExtra("content", getResources().getString(R.string.how_to_mentawai_content));
-        intent.putExtra("title", getResources().getString(R.string.how_to_mentawai));
-        intent.putExtra("banner", new int[]{R.mipmap.transportation1, R.mipmap.transportation2});
-        startActivity(intent);
+        Utils.openContent(getActivity(), "how_to_mentawai");
+    }
+
+    @OnClick(R.id.guide_button)
+    public void guideButtonOnClick() {
+        Utils.openContent(getActivity(), "tour_guide");
+    }
+
+    @OnClick(R.id.island_life_button)
+    public void islandLifeButtonOnClick() {
+        Utils.openContent(getActivity(), "island_life");
     }
 }

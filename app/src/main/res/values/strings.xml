@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mentawai TIC</string>
+    <string name="app_name">Mentawai</string>
     <string name="museo_sans_rounded_100">fonts/MuseoSansRounded-100.otf</string>
     <string name="museo_sans_rounded_300">fonts/MuseoSansRounded-300.otf</string>
     <string name="museo_sans_rounded_500">fonts/MuseoSansRounded-500.otf</string>
@@ -8,7 +8,7 @@
     <string name="aileuita">Aileuita</string>
     <string name="welcome">Welcome</string>
     <string name="how_are_you">"how are you"</string>
-    <string name="loading">loading your profile</string>
+    <string name="loading">Loading...</string>
     <string name="splash_title">The Government of Mentawai Island Regency\nThe West Sumatera Province</string>
     <string name="mentawai_surf_and_tourism">Mentawai Surf And Tourism</string>
     <string name="mentawai_surf_and_tourism_1">Mentawai\nSurf And\nTourism</string>

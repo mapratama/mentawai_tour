@@ -87,11 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void openBannerPage() {
         Intent intent = new Intent(MainActivity.this, BannerActivity.class);
-        intent.putExtra("banner", new int[]{R.mipmap.island1, R.mipmap.island2, R.mipmap.island3, R.mipmap.island4,
-                R.mipmap.wisdom1, R.mipmap.wisdom2, R.mipmap.wisdom3, R.mipmap.wisdom4, R.mipmap.tattoo2,
-                R.mipmap.tattoo1, R.mipmap.tattoo3, R.mipmap.attraction1, R.mipmap.attraction2,
-                R.mipmap.attraction3, R.mipmap.attraction4, R.mipmap.nature1, R.mipmap.nature2,
-                R.mipmap.nature3, R.mipmap.nature4});
+        intent.putExtra("imageTab", true);
         startActivityForResult(intent, 1);
     }
 

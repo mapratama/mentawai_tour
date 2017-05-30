@@ -6,8 +6,13 @@ import android.os.Bundle;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.realm.Realm;
+import io.realm.RealmList;
+import io.realm.RealmResults;
 import me.relex.circleindicator.CircleIndicator;
 import mobile.android.mentawaitour.R;
+import mobile.android.mentawaitour.models.Content;
+import mobile.android.mentawaitour.models.Photo;
 import mobile.android.mentawaitour.other.ImageAdapter;
 
 public class BannerActivity extends AppCompatActivity {
@@ -21,7 +26,13 @@ public class BannerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_banner);
         ButterKnife.bind(this);
 
-        viewPager.setAdapter(new ImageAdapter(this, getIntent().getIntArrayExtra("banner")));
+        if (getIntent().getBooleanExtra("imageTab", false)) {
+            RealmResults<Photo> photos = Realm.getDefaultInstance().where(Photo.class).findAll();
+            viewPager.setAdapter(new ImageAdapter(this, photos));
+        }
+        else
+            viewPager.setAdapter(new ImageAdapter(this, Content.getByKey(
+                    getIntent().getStringExtra("key")).getPhotos()));
         circleIndicator.setViewPager(viewPager);
     }
 }

@@ -34,16 +34,14 @@
 
                 <fr.arnaudguyon.smartfontslib.FontTextView
                     android:id="@+id/title_text"
-                    android:gravity="center"
-                    android:layout_centerVertical="true"
                     app:font="@string/museo_sans_rounded_300"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
-                    android:ellipsize="end"
-                    android:paddingLeft="20sp"
-                    android:paddingRight="20sp"
-                    android:textSize="25dp" />
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20dp" />
 
             </RelativeLayout>
 
