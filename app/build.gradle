@@ -30,6 +30,7 @@ dependencies {
     compile 'com.github.smart-fun:SmartFonts:1.0.1'
     compile 'com.loopj.android:android-async-http:1.4.9'
     compile 'me.relex:circleindicator:1.2.2@aar'
+    compile 'com.doku.sdkocov2:sdkocov2-release:1.0@aar'
     apt 'com.jakewharton:butterknife-compiler:8.4.0'
     compile files('libs/YouTubeAndroidPlayerApi.jar')
 }
