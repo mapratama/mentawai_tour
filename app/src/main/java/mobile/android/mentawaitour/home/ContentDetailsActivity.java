@@ -1,9 +1,16 @@
 package mobile.android.mentawaitour.home;
 
+import android.Manifest;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
 import android.util.Log;
@@ -41,6 +48,7 @@ public class ContentDetailsActivity extends AppCompatActivity {
     @BindView(R.id.indicator) CircleIndicator circleIndicator;
 
     private Content content;
+    private final int PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 223;
     private final String AMOUNT = "10000.00", MALL_ID = "4566", SHARED_KEY = "6bO15H7vizQP", CURRENCY = "360",
             PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjSxjhj+MEqy2f5qZDIdoponw/lFI/zKb5di2iSbuub64MCdkfQS4tFhuChJdr+kqhnrdNrr4KhITmVC1J9BvWmDScEQQRXoexGtk4c0Ulc90BVqL32ZHjUhhfwFEfxg4f0353PTf7Cc7VLmV6WFhMzUbgLtepaEbXzpN+aH+F8nFSiNhO4ifZPzOV5yB7ZxDQ9ME5m4j/5ky65OgZ3d0QIu5EufWNFOJjSHZ0w9CvllZz2Pc8v9niA41lzueeTssCmkuputL9HoDIl41aK8lQwvN0H2HVmWKGXGPvWHQUbttA9J3FiMstCz4kgMHUbF/CHmz8iV9UOzgTMv1HmCHwwIDAQAB";
 
@@ -63,8 +71,30 @@ public class ContentDetailsActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            payButtonOnClick();
+            return;
+        }
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Payment cant be start, Please allow permission for phone in apps device settings.");
+        builder.setCancelable(false);
+        builder.setPositiveButton("OK", null);
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
+
     @OnClick(R.id.pay_button)
     public void payButtonOnClick() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_PHONE_STATE},
+                    PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE);
+            return;
+        }
+
         TelephonyManager telephonyManager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
         String deviceID = telephonyManager.getDeviceId();
         String transactionID = "1234567";
